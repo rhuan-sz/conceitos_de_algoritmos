@@ -7,15 +7,15 @@ programa
 
 		escreva("Digite a largura do terreno\n")
 		leia(largura)
-		escreva("A largura do terreno é :", largura, "m\n")
+		escreva("A largura do terreno é: ", largura, " m\n")
 
 		escreva("Digite o comprimento do terreno\n")
 		leia(comprimento)
-		escreva("O comprimento do terreno é :", comprimento, "m\n")
+		escreva("O comprimento do terreno é: ", comprimento, " m\n")
 
 		area = largura * comprimento
 
-		escreva("A área do terreno é :", area,"m²\n")
+		escreva("A área do terreno é: ", area, " m²\n")
 		
 	}
 }
