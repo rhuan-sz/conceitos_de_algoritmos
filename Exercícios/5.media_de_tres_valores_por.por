@@ -15,10 +15,10 @@ programa
 		leia(valor3)
 
 		soma_dos_valores = valor1 + valor2 + valor3
-		escreva("A soma dos valores inseridos é:\n", soma_dos_valores)
+		escreva("A soma dos valores inseridos é: ", soma_dos_valores, "\n")
 
 		media = soma_dos_valores / 3
-		escreva("\nA media dos valores é:\n", media)
+		escreva("A média dos valores é: ", media, "\n")
 
 		
 	}
