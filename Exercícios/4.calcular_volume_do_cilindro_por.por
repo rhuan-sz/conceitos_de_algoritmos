@@ -3,27 +3,21 @@ programa
 	
 	funcao inicio()
 	{
-		real V, area_da_base, raio, altura
+		real volume_do_cilindro, area_da_base, raio, altura, pi
 
-		escreva("Para calcular o volume de um cilindro, digite a área da base do cilindro\n")
-		leia(area_da_base)
-		escreva("A área da base é:\nAb= ", area_da_base)
+		pi = 3.14
 
-		escreva("\nAgora digite o raio do cilindro\n")
+		escreva("Digite o raio do cilindro\n")
 		leia(raio)
-		escreva("O raio do cilindro é:\nr= ", raio)
 
-		escreva("\nPor último digite a altura do cilindro")
+		escreva("Digite a altura do cilindro\n")
 		leia(altura)
-		escreva("A altura do cilindro é:\nh= ", altura)
 
-		V = area_da_base * ((raio^2) * altura)
+		area_da_base = pi * (raio * raio)
+		escreva("A área da base é:\nAb= ", area_da_base, " m²")
 
-		escreva("O volume do cilindro é:\nv= ", V)
-		
-		
-		
-		
+		volume_do_cilindo = area_da_base * altura
+		escreva("\nO volume do cilindro é:\nV= ", volume_do_cilindo, " m³")
 		
 	}
 }
