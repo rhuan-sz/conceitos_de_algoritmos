@@ -5,6 +5,7 @@ programa
 	{
 		cadeia nome
 		real salario_base, valor_total_vendido, comissao, total_do_salario
+		
 		escreva("Digite o nome do vendedor:\n")
 		leia(nome)
 		escreva("Nome do vendedor:\n",nome)
