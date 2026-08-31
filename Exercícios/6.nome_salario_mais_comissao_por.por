@@ -4,18 +4,16 @@ programa
 	funcao inicio()
 	{
 		cadeia nome
-
-		escreva("Digite seu nome\n")
+		real salario_base, valor_total_vendido, comissao, total_do_salario
+		escreva("Digite o nome do vendedor:\n")
 		leia(nome)
 		escreva("Nome do vendedor:\n",nome)
 
-		real salario_base, valor_total_vendido, comissao, total_do_salario
-
-		escreva("\nInforme seu salario base\n")
+		escreva("\nInforme o salário base do vendedor:\n")
 		leia(salario_base)
 		escreva("Salario:\nR$ ",salario_base)
 
-		escreva("\nInforme o total de vendas feitas no mês\n")
+		escreva("\nInforme o total de vendas feitas no mês:\n")
 		leia(valor_total_vendido)
 		escreva("Total de vendas:\nR$ ", valor_total_vendido)
 
@@ -24,8 +22,6 @@ programa
 
 		total_do_salario = salario_base + comissao
 		escreva("\nSeu salário é:\nR$ ", total_do_salario)
-		
-		
 		
 		
 	}
